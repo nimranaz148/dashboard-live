@@ -1,12 +1,10 @@
 import Link from "next/link"
 import {
   BarChart,
-  Box,
-  Globe,
-  LayoutDashboard,
+  
   MessageSquare,
   Package,
-  Settings,
+
   ShoppingCart,
   Users,
 } from "lucide-react"
