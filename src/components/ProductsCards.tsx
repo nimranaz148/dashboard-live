@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import { client } from "@/sanity/lib/client";
+
 import { useEffect, useState } from "react";
 import { useAtom } from "jotai";
 import { searchName } from "@/globalState/globalState";

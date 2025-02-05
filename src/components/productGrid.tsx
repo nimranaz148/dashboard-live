@@ -9,8 +9,8 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { EditProductDialog } from "./edit-product-dialog"
-import { ICard, IReturnSanityProduct, productCreateSanity, productDeleteSanity, productPostSanity, sanityFetch } from "@/services/sanityApi"
-import { userPostSanity } from "@/services/userId"
+import { ICard, productCreateSanity, productDeleteSanity, productPostSanity, sanityFetch } from "@/services/sanityApi"
+
 import { CreateProductDialog } from "./create-product-dialog"
 
 
