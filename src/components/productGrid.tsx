@@ -24,6 +24,7 @@ export default function ProductsGrid() {
   //-----------------------------------------------Edit-Card-function
   const handleSaveProduct = async (updatedProduct: ICard) => {
     const res = await productPostSanity(updatedProduct)
+    
    if(res){
     setIsChange(!isChange)
    }
